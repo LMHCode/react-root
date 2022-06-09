@@ -30,7 +30,7 @@ module.exports = {
     // 强制全等( === 和 !==)
     'eqeqeq': 2,
     // 语句强制分号结尾
-    'semi': [2, 'always'],
+    // 'semi': [2, 'always'],
     // 禁止出现未使用的变量
     '@typescript-eslint/no-unused-vars': [2],
     // 箭头函数参数括号，一个参数时可省略括号
@@ -44,7 +44,7 @@ module.exports = {
     // jsx缩进2个空格
     'react/jsx-indent': [2, 2],
     // 文件末尾强制换行
-    'eol-last': 2, 
+    // 'eol-last': 2, 
     // react配置
     // 强制组件方法顺序
     'react/sort-comp': [2],

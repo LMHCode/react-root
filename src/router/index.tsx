@@ -1,6 +1,6 @@
-import demoRouter from "./demoRouter"
+import demoRouter from './demoRouter';
 
 const routers = [
   ...demoRouter
-]
-export default routers
+];
+export default routers;

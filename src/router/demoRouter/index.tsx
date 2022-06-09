@@ -1,10 +1,10 @@
 
-import {RouteConfig} from 'react-router-config'
-import Home from '../../page/demoPage/home'
-import DemoPage  from '../../page/demoPage/index'
-const demoRouter: RouteConfig = [
+// import { RouteConfig } from 'react-router-config';
+import Home from '../../page/demoPage/home';
+import DemoPage  from '../../page/demoPage/index';
+const demoRouter = [
   {
-    path: '/',
+    path: '/home',
     component: Home,
     name: 'home',
     exact:true
@@ -15,6 +15,6 @@ const demoRouter: RouteConfig = [
     name: 'demo',
     exact:true
   }
-]
+];
 
-export default demoRouter as RouteConfig[]
+export default demoRouter;
