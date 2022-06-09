@@ -6,6 +6,7 @@ import routes from './router'
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 const App = () => {
+  console.log(process.env)
   return (
     <Router>
       <Switch>
