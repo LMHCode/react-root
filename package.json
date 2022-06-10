@@ -19,6 +19,7 @@
     "eslint": "^8.17.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "http-proxy-middleware": "^2.0.6",
     "node-sass": "^7.0.1",
     "prettier": "^2.6.2",
     "react": "^18.1.0",
@@ -55,6 +56,5 @@
     ]
   },
   "devDependencies": {
-    "http-proxy-middleware": "^2.0.6"
   }
 }

@@ -12,12 +12,6 @@ module.exports = {
     }
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production'
-      ? 'error'
-      : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production'
-      ? 'error'
-      : 'off',
    	// 其余配置项自行添加
     // 取消函数参数需要重新赋值给另一个变量才能使用
     'no-param-reassign': [0],

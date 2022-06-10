@@ -2,11 +2,11 @@
 import './App.scss'
 import React from 'react'
 import routes from './router'
+import './until/rem'
 // import { renderRoutes } from 'react-router-config';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 const App = () => {
-  console.log(process.env)
   return (
     <Router>
       <Switch>
