@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
-import './App.scss'
+import '@/App.scss'
 import React from 'react'
-import routes from './router'
-import './until/rem'
+import routes from '@/router'
+import '@/until/rem'
 // import { renderRoutes } from 'react-router-config';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
