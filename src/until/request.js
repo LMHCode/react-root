@@ -1,4 +1,5 @@
 
+// @ts-ignore
 import axios from 'axios'
 const config = {
 	timeout: 60000, // request timeout
@@ -6,19 +7,19 @@ const config = {
 }
 let service = axios.create(config)
 // 添加请求拦截器
-service.interceptors.request.use(async config => {
+service.interceptors.request.use(async (/** @type {any} */ config) => {
   // 发送请求之前的操作 定义请求头部信息
   return config
-}, error => {
+}, (/** @type {any} */ error) => {
   // 对请求错误的操作
   return Promise.reject(error)
 })
 
 // 添加响应拦截器
-service.interceptors.response.use(res => {
+service.interceptors.response.use((/** @type {any} */ res) => {
   // 请求响应，对响应数据的操作
   return res
-}, error => {
+}, (/** @type {any} */ error) => {
   // 对响应错误的操作
   return Promise.reject(error)
 })
