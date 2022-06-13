@@ -4,7 +4,7 @@ const Home = () => {
   return <div className='demo'>
     welcome
     <p>sssssssss</p>
-  </div>;
-};
+  </div>
+}
 
-export default Home;
+export default Home

@@ -23,8 +23,8 @@ module.exports = {
     'quotes': [2, 'single'],
     // 强制全等( === 和 !==)
     'eqeqeq': 2,
-    // 语句强制分号结尾
-    // 'semi': [2, 'always'],
+    // 语句强制不以分号结尾
+    'semi': [2, 'never'],
     // 禁止出现未使用的变量
     '@typescript-eslint/no-unused-vars': [2],
     // 箭头函数参数括号，一个参数时可省略括号
@@ -49,4 +49,4 @@ module.exports = {
     // 检查 effect 的依赖
     'react-hooks/exhaustive-deps': [2]
   }
-};
+}
