@@ -15,7 +15,9 @@
     "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
+    "antd": "^4.24.2",
     "axios": "^0.27.2",
+    "babel-plugin-import": "^1.13.8",
     "env-cmd": "^10.1.0",
     "eslint": "^8.17.0",
     "eslint-plugin-prettier": "^4.0.0",
@@ -66,18 +68,17 @@
     "presets": [
       "react-app"
     ],
-    "env":
-    {
-      "development":{
+    "env": {
+      "development": {
         "plugins": [
           "react-hot-loader/babel"
         ]
       },
-      "test":{
+      "test": {
         "plugins": [
-          "react-hot-loader/babel" 
+          "react-hot-loader/babel"
         ]
-      }        
+      }
     }
   }
 }

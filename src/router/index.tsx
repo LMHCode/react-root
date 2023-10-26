@@ -1,6 +1,6 @@
 
 // import { RouteConfig } from 'react-router-config';
-import Home from '@/page/home'
+import Home from '@/page/home/home'
 const Router = [
   {
     path: '/',
