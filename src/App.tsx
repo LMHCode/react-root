@@ -2,9 +2,9 @@
 import '@/App.scss'
 import React, { useEffect, useState } from 'react'
 import routes from '@/router'
-import '@/until/rem'
+// import '@/until/rem'
 // import { renderRoutes } from 'react-router-config';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const App = () => {
   const [routeArr] = useState(routes)
@@ -13,14 +13,12 @@ const App = () => {
   }, [routeArr])
   return (
     <Router>
-      <Switch>
+      <Routes>
         {routeArr.map((r, i) => {
-          return <Route exact={r.exact} path={r.path} key={i} render={() => {
-            document.title = r.name || ''
-            return <r.component></r.component>
-          }}/>
+            return <Route path={r.path} key={i} element={r.elment}/>
         })}
-      </Switch>
+      </Routes>
+      
     </Router>
   )
 }
